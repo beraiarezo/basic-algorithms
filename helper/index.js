@@ -1,4 +1,4 @@
-const generateUniqueRandomArray = (length, min, max) => {
+export const generateUniqueRandomArray = (length, min, max) => {
   if (max - min + 1 < length)
     throw new Error(
       "Range is too small to generate the required number of unique numbers."
@@ -12,5 +12,3 @@ const generateUniqueRandomArray = (length, min, max) => {
 
   return Array.from(uniqueNumbers);
 };
-
-module.exports = generateUniqueRandomArray;

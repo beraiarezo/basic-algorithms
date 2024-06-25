@@ -1,14 +1,14 @@
-const generateRandomArray = require("../helper");
+import { generateUniqueRandomArray } from "../helper/index.js";
 
-const unsortedArray = generateRandomArray(10, 1, 1000);
-
-[29, 10, 14, 37, 14];
+const unsortedArray = generateUniqueRandomArray(10, 1, 1000);
 
 function BubbleSort(elements) {
   let length = elements.length;
 
+  let c = 0;
   for (let i = 0; i < length - 1; i++) {
     let swaped = false;
+
     for (let j = 0; j < length - i - 1; j++) {
       if (elements[j] > elements[j + 1]) {
         const temporary = elements[j];
