@@ -1,12 +1,26 @@
-# ** Bubble Sort **
+# **Bubble Sort**
+
+<p>
+Bubble sort is a basic algorithm for arranging a string of numbers or other elements in the correct order. The method works by examining each set of adjacent elements in the string, from left to right, switching their positions if they are out of order.
+</p>
+
+<br/>
+<br/>
+<br/>
 
 ## Bubble Sort Visualization
 
 ![Bubble sort gif](../public/gifs/bubble-sort.gif)
 
+<br/>
+<br/>
+
 ## Bubble Sort Description
 
 > Bubble sort is a sorting algorithm that starts from the first element of an array and compares it with the second element. If the first element is greater than the second, we swap them. It continues this process until the end of the array, with the largest elements “bubbling” to the top.
+
+<br/>
+<br/>
 
 ## Bubble Sort Implementation
 
