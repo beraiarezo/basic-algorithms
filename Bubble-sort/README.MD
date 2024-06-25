@@ -46,3 +46,15 @@ function BubbleSort(elements) {
   return elements;
 }
 ```
+
+<br />
+
+### Time Complexity
+
+**Bubble Sort**: Best case O(n), average case O(n^2), worst case O(n^2). It performs well on small arrays or when the input array is nearly sorted.
+
+<br />
+
+### Space Complexity
+
+O(1)
