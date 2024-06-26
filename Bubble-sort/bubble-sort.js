@@ -5,7 +5,6 @@ const unsortedArray = generateUniqueRandomArray(10, 1, 1000);
 function BubbleSort(elements) {
   let length = elements.length;
 
-  let c = 0;
   for (let i = 0; i < length - 1; i++) {
     let swaped = false;
 
