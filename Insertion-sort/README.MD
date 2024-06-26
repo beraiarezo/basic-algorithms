@@ -10,32 +10,25 @@ Insertion sort is a simple sorting algorithm that works by iteratively inserting
 
 ## Insertion Sort Visualization
 
-![Bubble sort gif](../public/gifs/insertion-sort.gif)
+![Insertion sort gif](../public/gifs/insertion-sort.gif)
 
 <br/>
 <br/>
 
-## Bubble Sort Implementation
+## Insertion Sort Implementation
 
 ```
-function BubbleSort(elements) {
-  let length = elements.length;
+function InsertionSort(elements) {
+  for (let i = 1; i < elements.length; i++) {
+    let currentElement = elements[i];
+    let j = i - 1;
 
-  let c = 0;
-  for (let i = 0; i < length - 1; i++) {
-    let swaped = false;
-
-    for (let j = 0; j < length - i - 1; j++) {
-      if (elements[j] > elements[j + 1]) {
-        const temporary = elements[j];
-        elements[j] = elements[j + 1];
-        elements[j + 1] = temporary;
-        swaped = true;
-      }
+    while (j >= 0 && currentElement < elements[j]) {
+      elements[j + 1] = elements[j];
+      j--;
     }
-    if (!swaped) break;
+    elements[j + 1] = currentElement;
   }
-
   return elements;
 }
 ```
