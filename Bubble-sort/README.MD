@@ -59,9 +59,10 @@ _To achieve quick sort, follow these steps:_
 ### Time and Space Complexity
 
 **Bubble Sort**: It performs well on small arrays or when the input array is nearly sorted.
-| COMPLEXITY | Base case | Average | Worst |
-|---------------|--------|-------------| --------------|
-| Time Complexity | O(n) | O(n<sup>2<sup>) | O(n<sup>2<sup>) |
-| Space Complexity | O(1) | O(1) | O(1) |
+
+| COMPLEXITY       | Base case | Average         | Worst           |
+| ---------------- | --------- | --------------- | --------------- |
+| Time Complexity  | O(n)      | O(n<sup>2<sup>) | O(n<sup>2<sup>) |
+| Space Complexity | O(1)      | O(1)            | O(1)            |
 
 <br />

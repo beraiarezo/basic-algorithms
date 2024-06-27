@@ -43,12 +43,13 @@ _To achieve insertion sort, follow these steps:_
 
 <br />
 
-### Time Complexity
+### Time and Space Complexity
 
-**Insertion Sort**: Best case O(n), average case O(n^2), worst case O(n^2). It performs well on small arrays or when the input array is nearly sorted.
+**Insertion Sort**: It performs well on small arrays or when the input array is nearly sorted.
+
+| COMPLEXITY       | Base case | Average          | Worst            |
+| ---------------- | --------- | ---------------- | ---------------- |
+| Time Complexity  | O(N)      | O(N<sup>2</sup>) | O(N<sup>2</sup>) |
+| Space Complexity | O(1)      | O(1)             | O(1)             |
 
 <br />
-
-### Space Complexity
-
-O(1)

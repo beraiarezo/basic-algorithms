@@ -43,14 +43,14 @@ _To achieve selection sort, follow these steps:_
 Selection sort is a simple and efficient sorting algorithm that works by repeatedly selecting the smallest (or largest) element from the unsorted portion of the list and moving it to the sorted portion of the list.
 <br />
 
-### Time Complexity
+### Time and Space Complexity
 
-**Selection Sort**: O(N<sup>2</sup>).
-<br />
+**Selection Sort**
 
-### Space Complexity
-
-O(1)
+| COMPLEXITY       | Base case        | Average          | Worst            |
+| ---------------- | ---------------- | ---------------- | ---------------- |
+| Time Complexity  | O(N<sup>2</sup>) | O(N<sup>2</sup>) | O(N<sup>2</sup>) |
+| Space Complexity | O(1)             | O(1)             | O(1)             |
 
 <br />
 

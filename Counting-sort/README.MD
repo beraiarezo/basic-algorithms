@@ -51,16 +51,17 @@ _To achieve counting sort, follow these steps:_
 
 <br />
 
-### Time Complexity
+### Time and Space Complexity
 
-**Counting Sort**: O(N+M), where N and M are the size of inputArray[] and countArray[] respectively.
-Best case O(n+m), average case O(n+m), worst case O(n+m). It performs well on small arrays or when the input array is nearly sorted.
+**Counting Sort Time**: where N and M are the size of inputArray[] and countArray[] respectively.
+**Counting Sort Space**: where N and M are the space taken by outputArray[] and countArray[] respectively.
+
+| COMPLEXITY       | Base case | Average | Worst  |
+| ---------------- | --------- | ------- | ------ |
+| Time Complexity  | O(n+m)    | O(n+m)  | O(n+m) |
+| Space Complexity | O(n+m)    | O(n+m)  | O(n+m) |
 
 <br />
-
-### Space Complexity
-
-O(N+M), where N and M are the space taken by outputArray[] and countArray[] respectively.
 
 #### Advantages:
 
