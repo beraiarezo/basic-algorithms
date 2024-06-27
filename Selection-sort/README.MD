@@ -61,6 +61,6 @@ Selection sort is a simple and efficient sorting algorithm that works by repeate
 
 #### Disadvantages
 
-- Selection sort has a time complexity of O(n^2) in the worst and average case.
+- Selection sort has a time complexity of O(n<sup>2</sup>) in the worst and average case.
 - Does not work well on large datasets.
 - Does not preserve the relative order of items with equal keys which means it is not stable.
