@@ -58,7 +58,11 @@ _To achieve quick sort, follow these steps:_
 
 ### Time Complexity
 
-**Bubble Sort**: Best case O(n), average case O(n^2), worst case O(n^2). It performs well on small arrays or when the input array is nearly sorted.
+**Bubble Sort**: It performs well on small arrays or when the input array is nearly sorted.
+
+| Base case |     Average     |           Worst |
+| :-------- | :-------------: | --------------: |
+| O(n)      | O(n<sup>2<sup>) | O(n<sup>2<sup>) |
 
 <br />
 
