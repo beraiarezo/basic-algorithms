@@ -4,9 +4,7 @@ const unsortedArray = generateUniqueRandomArray(10, 1, 1000);
 
 function Pivot(elements, start = 0, end = elements.length) {
   function swap(elements, i, j) {
-    let tmp = elements[i];
-    elements[i] = elements[j];
-    elements[j] = tmp;
+    [elements[i], elements[j]] = [elements[j], elements[i]];
   }
 
   let currentElement = elements[start];

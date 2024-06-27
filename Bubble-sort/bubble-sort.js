@@ -10,9 +10,7 @@ function BubbleSort(elements) {
 
     for (let j = 0; j < length - i - 1; j++) {
       if (elements[j] > elements[j + 1]) {
-        const temporary = elements[j];
-        elements[j] = elements[j + 1];
-        elements[j + 1] = temporary;
+        [elements[i], elements[j]] = [elements[j], elements[i]];
         swaped = true;
       }
     }

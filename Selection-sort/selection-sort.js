@@ -1,22 +1,24 @@
-const generateRandomArray = require("../helper");
+import { generateUniqueRandomArray } from "../helper/index.js";
 
-const unsortedArray = generateRandomArray(10, 1, 1000);
+const unsortedArray = generateUniqueRandomArray(10, 1, 1000);
+
+function swap(elements, i, j) {
+  [elements[i], elements[j]] = [elements[j], elements[i]];
+}
 
 function SelectionSort(elements) {
-  let length = elements.length;
-  for (let i = 0; i < length; i++) {
-    let swaped = false;
-    for (let j = i + 1; j < length; j++) {
-      if (elements[i] > elements[j]) {
-        const temporary = elements[i];
-        elements[i] = elements[j];
-        elements[j] = temporary;
-        swaped = true;
+  for (let i = 0; i < elements.length - 1; i++) {
+    let min_element_index = i;
+    for (let j = i + 1; j < elements.length; j++) {
+      if (elements[j] < elements[min_element_index]) {
+        min_element_index = j;
       }
     }
-    if (!swaped) break;
+    if (min_element_index !== i) {
+      swap(elements, i, min_element_index);
+    }
   }
   return elements;
 }
 
-console.debug(SelectionSort(unsortedArray));
+console.log(SelectionSort(unsortedArray));
