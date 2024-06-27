@@ -45,7 +45,7 @@ Selection sort is a simple and efficient sorting algorithm that works by repeate
 
 ### Time Complexity
 
-**Selection Sort**: O(\( N^2 \)).
+**Selection Sort**: O(N<sup>2</sup>).
 
 <br />
 
