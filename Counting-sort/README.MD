@@ -54,6 +54,9 @@ _To achieve counting sort, follow these steps:_
 ### Time and Space Complexity
 
 **Counting Sort Time**: where N and M are the size of inputArray[] and countArray[] respectively.
+
+<br />
+
 **Counting Sort Space**: where N and M are the space taken by outputArray[] and countArray[] respectively.
 
 | COMPLEXITY       | Base case | Average | Worst  |

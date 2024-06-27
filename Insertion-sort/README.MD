@@ -49,7 +49,7 @@ _To achieve insertion sort, follow these steps:_
 
 | COMPLEXITY       | Base case | Average          | Worst            |
 | ---------------- | --------- | ---------------- | ---------------- |
-| Time Complexity  | O(N)      | O(N<sup>2</sup>) | O(N<sup>2</sup>) |
+| Time Complexity  | O(N)      | O(n<sup>2</sup>) | O(n<sup>2</sup>) |
 | Space Complexity | O(1)      | O(1)             | O(1)             |
 
 <br />

@@ -62,10 +62,10 @@ _To achieve quick sort, follow these steps:_
 
 **Quick Sort**
 
-| COMPLEXITY       | Base case                | Average                  | Worst            |
-| ---------------- | ------------------------ | ------------------------ | ---------------- |
-| Time Complexity  | O(n log<sub>10</sub>(n)) | O(n log<sub>10</sub>(n)) | O(N<sup>2</sup>) |
-| Space Complexity | O(1)                     | O(1)                     | O(1)             |
+| COMPLEXITY       | Base case   | Average     | Worst            |
+| ---------------- | ----------- | ----------- | ---------------- |
+| Time Complexity  | O(n log(n)) | O(n log(n)) | O(n<sup>2</sup>) |
+| Space Complexity | O(1)        | O(1)        | O(1)             |
 
 <br />
 

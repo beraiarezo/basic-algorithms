@@ -49,7 +49,7 @@ Selection sort is a simple and efficient sorting algorithm that works by repeate
 
 | COMPLEXITY       | Base case        | Average          | Worst            |
 | ---------------- | ---------------- | ---------------- | ---------------- |
-| Time Complexity  | O(N<sup>2</sup>) | O(N<sup>2</sup>) | O(N<sup>2</sup>) |
+| Time Complexity  | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(n<sup>2</sup>) |
 | Space Complexity | O(1)             | O(1)             | O(1)             |
 
 <br />
