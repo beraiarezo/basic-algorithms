@@ -56,16 +56,14 @@ _To achieve quick sort, follow these steps:_
 
 <br />
 
-### Time Complexity
+### Complexity
 
 **Bubble Sort**: It performs well on small arrays or when the input array is nearly sorted.
 
-| Base case |     Average     |           Worst |
-| :-------- | :-------------: | --------------: |
-| O(n)      | O(n<sup>2<sup>) | O(n<sup>2<sup>) |
+                   | Base case |     Average     |           Worst |
+                   | :-------- | :-------------: | --------------: |
+
+| Time Complexity | O(n) | O(n<sup>2<sup>) | O(n<sup>2<sup>) |
+| Space Complexity | O(1) | O(1) | O(1) |
 
 <br />
-
-### Space Complexity
-
-O(1)
