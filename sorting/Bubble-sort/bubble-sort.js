@@ -1,4 +1,4 @@
-import { generateUniqueRandomArray } from "../helper/index.js";
+import { generateUniqueRandomArray } from "../../helper/index.js";
 
 const unsortedArray = generateUniqueRandomArray(10, 1, 1000);
 
