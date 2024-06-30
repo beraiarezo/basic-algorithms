@@ -22,6 +22,6 @@ The Frequency Counter pattern utilizes an object or set to gather values and the
 
 | COMPLEXITY      | Base case | Average | Worst |
 | --------------- | --------- | ------- | ----- |
-| Time Complexity | O(n)      | O(n)    | O(n>) |
+| Time Complexity | O(n)      | O(n)    | O(n)  |
 
 <br />
