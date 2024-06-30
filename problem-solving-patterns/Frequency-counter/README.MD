@@ -8,8 +8,6 @@ The Frequency Counter pattern utilizes an object or set to gather values and the
 
 ## When is the Frequency Counter pattern appropriate to use?
 
-<!-- <br /> -->
-
 > Counting Occurrences: When you need to count the frequency of elements in a collection, such as the number of times each character appears in a string or each number appears in an array.
 
 > Comparing Collections: When comparing two collections to check if they have the same elements with the same frequencies, such as determining if two strings are anagrams.
@@ -21,8 +19,6 @@ The Frequency Counter pattern utilizes an object or set to gather values and the
 <br/>
 
 ### Time and Space Complexity
-
-**Bubble Sort**: It performs well on small arrays or when the input array is nearly sorted.
 
 | COMPLEXITY      | Base case | Average | Worst |
 | --------------- | --------- | ------- | ----- |
