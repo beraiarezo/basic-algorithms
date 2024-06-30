@@ -5,7 +5,10 @@ The Frequency Counter pattern utilizes an object or set to gather values and the
 </p>
 
 <br/>
+
 ## When is the Frequency Counter pattern appropriate to use?
+
+<!-- <br /> -->
 
 > Counting Occurrences: When you need to count the frequency of elements in a collection, such as the number of times each character appears in a string or each number appears in an array.
 
