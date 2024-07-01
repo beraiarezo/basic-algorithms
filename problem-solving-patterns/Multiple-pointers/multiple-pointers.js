@@ -1,15 +1,15 @@
 /**
  * AveragePair checks if there exists a pair of numbers in the array whose average is equal to the given value.
- * @param {number[]} array - An array of numbers
+ * @param {number[]} nums - An array of numbers
  * @param {number} average - The target average value
  * @returns {boolean} - Returns true if there exists a pair of numbers whose average equals the target value, otherwise false.
  */
-function AveragePair(array, average) {
-  let left = 0;
-  let right = array.length;
+function AveragePair(nums, average) {
+  let left = 0,
+    right = nums.length;
 
   while (left < right) {
-    let av = (array[left] + array[right]) / 2;
+    let av = (nums[left] + nums[right]) / 2;
     if (average === av) {
       return true;
     }
@@ -28,8 +28,9 @@ function AveragePair(array, average) {
  * @returns {boolean} - Returns true if the first string is a subsequence of the second string, otherwise false.
  */
 function IsSubsequence(string1, string2) {
-  let left = 0;
-  let right = 0;
+  let left = 0,
+    right = 0;
+
   while (right < string2.length) {
     if (string1[left] === string2[right]) {
       left++;
