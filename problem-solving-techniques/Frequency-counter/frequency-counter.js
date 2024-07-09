@@ -6,13 +6,12 @@
  */
 
 function SameFrequency(num1, num2) {
-  let strNum1 = num1.toString();
-  let strNum2 = num2.toString();
+  let strNum1 = num1.toString(),
+    strNum2 = num2.toString(),
+    frequences1 = {},
+    frequences2 = {};
 
   if (strNum1.length !== strNum2.length) return false;
-
-  let frequences1 = {};
-  let frequences2 = {};
 
   for (let i = 0; i < strNum1.length; i++) {
     frequences1[strNum1[i]] = (frequences1[strNum1[i]] || 0) + 1;
