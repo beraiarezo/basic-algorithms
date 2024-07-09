@@ -11,6 +11,6 @@ Binary search is an efficient algorithm for finding an item from a sorted list o
 
 | COMPLEXITY      | Base case | Average  | Worst    |
 | --------------- | --------- | -------- | -------- |
-| Time Complexity | O(log n)  | O(log n) | O(log n) |
+| Time Complexity | O(1)      | O(log n) | O(log n) |
 
 <br />
