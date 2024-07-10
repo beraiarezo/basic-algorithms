@@ -56,12 +56,12 @@ _To achieve radix sort, follow these steps:_
 - Find the Maximum Number of Digits: Determine the maximum number of digits in the largest number in the array.
 - Initialize Buckets: Create buckets for each digit (0-9).
 - Sort by Least Significant Digit (LSD):
-- - Extract the least significant digit of each number.
-- - Place each number into the corresponding bucket.
-- - Collect numbers from the buckets in order.
+  - Extract the least significant digit of each number.
+  - Place each number into the corresponding bucket.
+  - Collect numbers from the buckets in order.
 - Repeat for Next Digits:
-- - Move to the next significant digit.
-- - Repeat the sorting and collecting process.
+  - Move to the next significant digit.
+  - Repeat the sorting and collecting process.
 - Complete for All Digits: Continue until all digits are processed.
 
 <br />
