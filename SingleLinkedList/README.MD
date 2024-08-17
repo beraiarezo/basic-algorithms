@@ -22,7 +22,7 @@ A single linked list is a fundamental data structure used in computer science to
 <br/>
 <br/>
 
-## Bubble Sort Implementation
+## Single Linked List Implementation
 
 ```
 class Node {
