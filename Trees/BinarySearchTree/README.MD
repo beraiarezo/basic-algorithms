@@ -10,7 +10,7 @@ A binary search tree (BST) is a tree data structure where each node has at most 
 
 ## Binary Search Tree Visualization
 
-![binary-search-tree](../public/pngs/binarysearchtree.png)
+![binary-search-tree](../../public/pngs/binarysearchtree.png)
 
 <br/>
 <br/>
